@@ -18,7 +18,7 @@
             background-image: url(multimedia/piza.jpg);
             background-size: cover;
             background-position: bottom;
-            background-attachment: fixed;
+/*             background-attachment: fixed; */
             
         }
             h1{
