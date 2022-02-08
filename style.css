@@ -1,0 +1,300 @@
+*{
+    box-sizing: border-box;
+}
+    .dad{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+        header{
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 600px;
+            color: rgb(255, 255, 255);
+            background-image: url(multimedia/piza.jpg);
+            background-size: cover;
+            background-position: bottom;
+            background-attachment: fixed;
+            
+        }
+            h1{
+                font-size: 80px;
+                margin-bottom: 0px;
+                -webkit-text-stroke: 4px rgb(175, 0, 0);
+                    color:  rgba(19, 19, 19, 0.281);; 
+                   padding-top: 60px;
+                    backdrop-filter: blur( .2px );
+                    -webkit-backdrop-filter: blur( .2px );
+                    
+                    
+                        
+                    
+            }
+            h2{
+                margin-top: 0;
+                margin-bottom: 40px;
+                -webkit-text-stroke: .5px rgb(0, 255, 0);
+                color: transparent; 
+            }
+             header p{
+                
+                
+               
+                color: white;
+                padding: 5px;
+                padding-left: 25px;
+                margin: 20px;
+                font-size:20px;
+                -webkit-box-shadow: 0px 0px 10px 2px rgba(255,0,0,1);
+                -moz-box-shadow: 0px 0px 10px 2px rgba(255,0,0,1);
+                box-shadow: 0px 0px 10px 2px rgba(255,0,0,1);
+                background: rgba(19, 19, 19, 0.555);
+                backdrop-filter: blur( .2px );
+                -webkit-backdrop-filter: blur( .2px );
+                border-radius: 20px;
+            } 
+
+            header div{
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-evenly;
+                
+                width: 100%;
+                padding-top: 60px;
+                margin-bottom: 0;
+            }
+            header div p{
+                border: none;
+            }
+            
+            .logo-wspp a{
+                padding: 5px;
+                padding-right: 10px;
+                padding-left: 10px;
+                font-size: 50px;
+                color: rgb(255, 255, 255);
+                margin-bottom: 20px;
+                -webkit-box-shadow: 0px 0px 10px 2px rgba(255,0,0,1);
+                -moz-box-shadow: 0px 0px 10px 2px rgba(255,0,0,1);
+                box-shadow: 0px 0px 10px 2px rgba(255,0,0,1);
+                background: rgba(19, 19, 19, 0.555);
+                backdrop-filter: blur( .2px );
+                -webkit-backdrop-filter: blur( .2px );
+                border-radius: 50%;
+            }
+            
+            .logo-ubicacion a{
+                padding: 5px;
+                font-size: 50px;
+                color: rgb(255, 255, 255);
+                margin-bottom: 20px;
+                -webkit-box-shadow: 0px 0px 10px 2px rgba(255,0,0,1);
+                -moz-box-shadow: 0px 0px 10px 2px rgba(255,0,0,1);
+                box-shadow: 0px 0px 10px 2px rgba(255,0,0,1);
+                background: rgba(19, 19, 19, 0.555);
+                backdrop-filter: blur( .2px );
+                -webkit-backdrop-filter: blur( .2px );
+                border-radius: 50%;
+            }
+        main{
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+            .nav{
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+                align-items: baseline;
+                color: white;
+                width: 100%;
+                position: sticky;
+                top: -1px;
+                background: rgb(175, 0, 0);
+            }
+                .nav a{
+                    text-decoration: none;
+                    color: white;
+                    border-left: solid 1px white;
+                    margin: 5px;
+font-family: 'Rowdies', cursive;
+font-size: 20px;
+                }
+                h3{
+                    color: green;
+                }
+            section{
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                align-content: center;
+            }
+            .carta{
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                align-items: center;
+                background-image: url(multimedia/pizzaa.jpg);
+                background-size: cover;
+                height: 250px;
+            }
+                h5{
+                    font-size: 50px;
+                    -webkit-text-stroke: 4px rgb(255, 255, 255);
+                    color:  transparent; 
+                    margin: 0;
+                    padding: 20px;
+                    font-family: 'Rowdies', cursive;
+                }
+                .boton{
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    background: rgb(175, 0, 0);
+                    width: 200px;
+                    padding: 15px;
+                    border-radius: 40px;
+                    font-family: 'Rowdies', cursive;
+                }
+                .boton a{
+                    color: white;
+                    text-decoration: none;
+                }
+                
+                .nosotros{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    background-image: url(multimedia/chef.jpg);
+                    background-size: cover;
+                   
+                    background-attachment: fixed;
+                }
+                    h4{
+                        font-size: 50px;
+                        -webkit-text-stroke: 4px rgb(255, 255, 255);
+                    color:  transparent; 
+                        font-family: 'Rowdies', cursive;
+                    }
+                    .nosotros div{
+                        display: flex;
+                        padding: 10px;
+                        background-color: rgba(0, 0, 0, 0.548);
+                        color: white;
+                        width: 50%;
+                        margin-bottom: 50px;
+                    }
+                .contacto{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    background-image: url(multimedia/deliveryy.jpg);
+                    background-size: cover;
+                }
+                    h6{
+                        font-size: 50px;
+                        margin-top: 40px;
+                        margin-bottom: 0;
+                        -webkit-text-stroke: 4px rgb(255, 255, 255);
+                    color:  transparent; 
+                        font-family: 'Rowdies', cursive;
+                    }
+                    .cont{
+                        background-color: rgba(0, 0, 0, 0.822);
+                        padding: 30px;
+                        margin-top: 20px;
+                        margin-bottom: 30px;
+                    }
+                    .cont a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                    .cont div{
+                        padding: 20px;
+                    }
+
+                    .ubicacion{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-image: url(multimedia/map.jpg);
+                        background-size: cover;
+                        height: 200px;
+                    }
+                        .ubicacion a{
+                            font-size: 80px;
+                            color: rgb(175, 0, 0);
+                        }
+                    
+
+                
+                    
+        footer{
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background: rgb(175, 0, 0);
+            color: white;
+            font-family: 'Rowdies', cursive;
+        }
+
+@media screen and (min-width: 500px){
+    h1{
+        font-size: 110px;
+    }
+}
+@media screen and (min-width: 700px){
+    h1{
+        font-size: 130px;
+    }
+}
+@media screen and (min-width: 1000px){
+    h1{
+        font-size: 170px;
+    }
+}
+@media screen and (min-width: 1200px){
+    h1{
+        font-size: 240px;
+        padding-top: 0px;
+        margin-top: 0px;
+        -webkit-text-stroke: 10px rgb(175, 0, 0);
+    }
+    h2{
+        font-size: 100px;
+        -webkit-text-stroke: 5px rgb(0, 255, 0);
+    }
+    header{
+        height: 700px;
+        background-position: center;
+    }
+    .logo-wspp a{
+        margin-bottom: 100px
+    };
+    .logo-ubicacion a{
+        margin-bottom: 100px
+    };
+    h3{
+        font-size: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+ 
